@@ -33,8 +33,7 @@ This project extracts actionable insights to support the new CEO in making infor
 - Snowflake Cloud 
 - Canva
 - Miro
-- Word
-- ------------------------------
+-------------------------------
 
 
 
