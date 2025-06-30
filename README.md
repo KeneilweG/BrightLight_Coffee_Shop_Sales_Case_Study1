@@ -1,6 +1,6 @@
 ☕BrightLight_Coffee_Shop_Sales_Case_Study1
 ----------------------------------------------------------
-This projects extract actionable insights to help the New CEO make better desision and also as a Junior Data Analyst to satisfy the CEO mission to improve total Revenue and products performance. The repository comprise the sale analysis of the brightlight coffee shop with the aim to understand thoughouly the behaviour of customers, on sales trends, location-based trends and the total revenue trends to make strategic decision making to grow sales.
+This project extracts actionable insights to support the new CEO in making informed decisions. As a Junior Data Analyst, my goal is to help improve total revenue and product performance. The repository presents a sales analysis of BrightLight Coffee Shop, aimed at thoroughly understanding customer behavior, sales trends, location-based patterns, and total revenue growth, ultimately guiding strategic decision-making to increase sales.
 
 -----------------------------------------------------------
 📊Key Insights
