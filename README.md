@@ -1,4 +1,5 @@
 ☕BrightLight_Coffee_Shop_Sales_Analysis
+-------------------------------------------
 ----------------------------------------------------------
 This project extracts actionable insights to support the new CEO in making informed decisions. As a Junior Data Analyst, my goal is to help improve total revenue and product performance. The repository presents a sales analysis of BrightLight Coffee Shop, aimed at thoroughly understanding customer behavior, sales trends, location-based patterns, and total revenue growth, ultimately guiding strategic decision-making to increase sales.
 
