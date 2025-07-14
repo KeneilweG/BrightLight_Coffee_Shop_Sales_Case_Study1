@@ -1,41 +1,49 @@
-☕BrightLight_Coffee_Shop_Sales_Analysis
--------------------------------------------
-----------------------------------------------------------
-This project extracts actionable insights to support the new CEO in making informed decisions. As a Junior Data Analyst, my goal is to help improve total revenue and product performance. The repository presents a sales analysis of BrightLight Coffee Shop, aimed at thoroughly understanding customer behavior, sales trends, location-based patterns, and total revenue growth, ultimately guiding strategic decision-making to increase sales.
+# ☕ BrightLight Coffee Shop Sales Analysis
 
------------------------------------------------------------
-📊Key Insights
------------------------------------------------------------
-🗓️🕐Sales Trends
-----------------------------------
-- The Total Revenue fluatuate day to day and total revenue per day increases slowly from February to June, with the growth 3% month to month & 8 % from the first 5 days of May & June.
-----------------------
-📍Location Trends
-----------------------
-- In the morning time bucket in all the 3 location contributes more that the other time bucket.
------------------------
-☕Product Performance
-------------------------
-- Coffee, Tea & Bakery are the top performing product with 79% of total revenue.
-- Since the items and revenue are directly proportion the Standard product bucket contritude 85 % of total revenue & 45% of it is demanded in the morning.
----------------------------------
-📈Recommendations
----------------------------------
-- Run start-and end-of-week promotions.
-- Add staff during peak hours.
-- Use mobile carts to reach low-performing locations.
-- Prioritize best-sellers; promote underperformers.
-- Update digital platforms daily with key deals.
-- Capitalize first days of the month.
-- Pair-slow miving items with best sellers.
-------------------------------
-🛠️ Tools Used
--------------
-- MS Excel
-- Snowflake Cloud 
-- Canva
-- Miro
--------------------------------
+## 📖 About This Analysis  
+This case study explores real-world transaction data from BrightLight Coffee Shop, transforming raw records into strategic insights that guide revenue growth, customer engagement, and executive decision-making.
 
+## 📌 Project Goals
+- Extract actionable insights to support the new CEO’s business decisions  
+- Analyze customer behavior, sales trends, location-based performance, and revenue growth  
+- Recommend practical strategies to improve total revenue and product performance  
+- Demonstrate proficiency in SQL, Snowflake, Excel, Miro, and PowerPoint through a full-cycle analysis project  
 
+## 📁 Project Files
+- **Initial Files**: Project Guidelines & Raw Dataset  
+- **Planning Assets**: Miro Mind Map  
+- **Analysis & Processing**: Snowflake SQL Script & Excel Workbook  
+- **Final Output**: CEO Presentation Deck (PowerPoint)  
 
+## 📊 Key Insights
+
+### 📅 Sales Trends
+- Revenue increased approximately **3% month-to-month**  
+- First five days of May vs. June showed an **8% growth**, revealing strong early-month engagement  
+
+### 📍 Location Trends
+- **Morning time buckets** consistently generate **55%** of total revenue across all three store locations  
+
+### ☕ Product Performance
+- Coffee, Tea, and Bakery products contribute **79%** of total revenue  
+- Since items and revenue are directly proportional, the Standard Product Bucket contributes **85%** of total revenue — with **45%** of that demanded during morning hours  
+
+## ✅ Recommendations
+- Run start- and end-of-week promotions  
+- Add staff during peak morning hours  
+- Use mobile carts to reach low-performing locations  
+- Prioritize best-sellers; promote underperformers  
+- Update digital platforms daily with key deals  
+- Capitalize on the first days of each month  
+- Pair slow-moving items with best-sellers  
+
+## 🧭 Future Enhancements
+- Automate daily reporting using SQL scheduling  
+- Monitor performance across multiple store locations  
+- Introduce loyalty program strategies tied to peak hours and top-selling items  
+
+## 🔧 Tools Used
+- Snowflake  
+- Excel  
+- Canva  
+- Miro  
