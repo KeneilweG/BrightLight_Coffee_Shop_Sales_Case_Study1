@@ -10,7 +10,7 @@ This case study explores real-world transaction data from BrightLight Coffee Sho
 - Demonstrate proficiency in SQL, Snowflake, Excel, Miro, and PowerPoint through a full-cycle analysis project  
 
 ## 📁 Project Files
-- **Project Initial Files**: [Project Guidelines](Project Intial Files (Project Guidelines + Raw Data)/Bright Coffee Shop Analysis.xlsx - Transactions (1).csv) &
+- **Project Initial Files**: <a href="https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/main/Project%20Intial%20Files%20(Project%20Guidelines%20%2B%20Raw%20Data)/Bright%20Coffee%20Shop%20Analysis.xlsx%20-%20Transactions%20(1).csv">Project Guidelines</a>
 - Raw Dataset  
 - **Project Planning**: Miro Mind Map  
 - **Working & Analysis File**: Snowflake SQL Script & Excel Workbook  
