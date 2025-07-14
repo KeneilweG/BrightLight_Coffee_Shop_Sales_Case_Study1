@@ -8,7 +8,7 @@ This project extracts actionable insights to support the new CEO in making infor
 -----------------------------------------------------------
 🗓️🕐Sales Trends
 ----------------------------------
-- The Total Revenue fluatuate day to day and total revenue per day increases slowly from February to June, with the growth 3% month to month
+- The Total Revenue fluatuate day to day and total revenue per day increases slowly from February to June, with the growth 3% month to month & 8 % from the first 5 days of May & June.
 ----------------------
 📍Location Trends
 ----------------------
@@ -16,8 +16,8 @@ This project extracts actionable insights to support the new CEO in making infor
 -----------------------
 ☕Product Performance
 ------------------------
-- Coffee is the top performing product with 67% of total revenue.
-- Withing product type Barista Espresso, Chai Tea, and Hot Chocolate contribute nearly 50% of total product revenue.
+- Coffee, Tea & Bakery are the top performing product with 79% of total revenue.
+- Since the items and revenue are directly proportion the Standard product bucket contritude 85 % of total revenue & 45% of it is demanded in the morning.
 ---------------------------------
 📈Recommendations
 ---------------------------------
@@ -26,6 +26,8 @@ This project extracts actionable insights to support the new CEO in making infor
 - Use mobile carts to reach low-performing locations.
 - Prioritize best-sellers; promote underperformers.
 - Update digital platforms daily with key deals.
+- Capitalize first days of the month.
+- Pair-slow miving items with best sellers.
 ------------------------------
 🛠️ Tools Used
 -------------
