@@ -21,7 +21,7 @@ To clean and analyze transactional data, uncover revenue trends, and deliver act
 - **Working & Analysis File**: <a href="https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/create-branch-5/Working%20%26%20Analysis%20File%20(SQL(processed%20data))%2B%20Excel/Coffee%20Shop%20Sales.sql">Snowflake SQL Script</a> & <a href="https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/create-branch-5/Working%20%26%20Analysis%20File%20(SQL(processed%20data))%2B%20Excel/Bright%20Coffee%20Shop%20(6).xlsx">Excel Workbook</a> 
 - **Results File**: <a href="https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/create-branch-5/Results%20File%20(%20Presentantion(canva))/Coffee%20Shop%20Sales%20Presentation.pptx">Presentation(PowerPoint)</a> 
 
-## 📊 Key Insights
+## 📊 Key Findings
 
  ### 📅 Sales Trends
  - Revenue increased approximately **3% month-to-month**  
