@@ -12,7 +12,7 @@ This case study explores real-world transaction data from BrightLight Coffee Sho
 ## 📁 Project Files
 - **Project Initial Files**: <a href="https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/main/Project%20Intial%20Files%20(Project%20Guidelines%20%2B%20Raw%20Data)/Bright%20Coffee%20Shop%20Analysis.xlsx%20-%20Transactions%20(1).csv">Project Guidelines</a> & <a href="https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/create-branch-5/Project%20Intial%20Files%20(Project%20Guidelines%20%2B%20Raw%20Data)/Bright%20Coffee%20Shop%20Sales%20Analysis%20(BRIGHTLIGHT)%20(1).pdf">Raw Dataset</a>  
 - **Project Planning**: Miro Mind Map  
-- **Working & Analysis File**: <a href="https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/create-branch-5/Working%20%26%20Analysis%20File%20(SQL(processed%20data))%2B%20Excel/Coffee%20Shop%20Sales.sql">Snowflake SQL Script</a> & Excel Workbook  
+- **Working & Analysis File**: <a href="https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/create-branch-5/Working%20%26%20Analysis%20File%20(SQL(processed%20data))%2B%20Excel/Coffee%20Shop%20Sales.sql">Snowflake SQL Script</a> & <a href="https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/create-branch-5/Working%20%26%20Analysis%20File%20(SQL(processed%20data))%2B%20Excel/Bright%20Coffee%20Shop%20(6).xlsx">Excel Workbook</a> 
 - **Results File**: Presentation(PowerPoint)  
 
 ## 📊 Key Insights
