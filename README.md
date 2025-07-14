@@ -10,10 +10,10 @@ This case study explores real-world transaction data from BrightLight Coffee Sho
 - Demonstrate proficiency in SQL, Snowflake, Excel, Miro, and PowerPoint through a full-cycle analysis project  
 
 ## 📁 Project Files
-- **Initial Files**: Project Guidelines & Raw Dataset  
-- **Planning Assets**: Miro Mind Map  
-- **Analysis & Processing**: Snowflake SQL Script & Excel Workbook  
-- **Final Output**: CEO Presentation Deck (PowerPoint)  
+- **Project Initial Files**: Project Guidelines & Raw Dataset  
+- **Project Planning**: Miro Mind Map  
+- **Working & Analysis File**: Snowflake SQL Script & Excel Workbook  
+- **Results File**: Presentation(PowerPoint)  
 
 ## 📊 Key Insights
 
