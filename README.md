@@ -51,5 +51,5 @@ To clean and analyze transactional data, uncover revenue trends, and deliver act
 ## 🔧 Tools Used
 - Snowflake  
 - Excel  
-- Canva  
+- PowerPoint  
 - Miro  
