@@ -1,7 +1,7 @@
 # ☕ BrightLight Coffee Shop Sales Analysis
----
+
 ## 📖 About This Analysis  
-This case study explores real-world transaction data from BrightLight Coffee Shop, transforming raw records into strategic insights that guide revenue growth, customer engagement, and executive decision-making.
+This case study explores real-world transaction data from BrightLight Coffee Shop, transforming raw records into strategic insights that guide revenue growth, customer engagement, and executive decision-making over the period of **January** to **June 2023**.
 
 ## 🔍 Problem Statement  
 The new CEO needed fast, data-driven insights to understand product performance and customer behavior. But the available data was messy and inconsistent, making clear decision-making difficult.
@@ -23,16 +23,16 @@ To clean and analyze transactional data, uncover revenue trends, and deliver act
 
 ## 📊 Key Findings
 
- ### 📅 Sales Trends
- - Revenue increased approximately **3% month-to-month**  
- - First five days of May vs. June showed an **8% growth**, revealing strong early-month engagement  
+  1. ### 📅Sales Trends
+   - Revenue increased approximately **3% month-to-month**  
+   - First five days of May vs. June showed an **8% growth**, revealing strong early-month engagement  
 
- ### 📍 Location Trends
- - **Morning time buckets** consistently generate **55%** of total revenue across all three store locations  
+  2. ### 📍Location Trends
+   - **Morning time buckets** consistently generate **55%** of total revenue across all three store locations  
 
- ### ☕ Product Performance
- - Coffee, Tea, and Bakery products contribute **79%** of total revenue  
- - Since items and revenue are directly proportional, the Standard Product Bucket contributes **85%** of total revenue,    with **45%** of that demanded during morning hours  
+  3. ### ☕Product Performance
+   - Coffee, Tea, and Bakery products contribute **79%** of total revenue  
+   - Since items and revenue are directly proportional, the Standard Product Bucket contributes **85%** of total revenue,    with **45%** of that demanded during morning hours  
 
 ## ✅ Recommendations
 - Run start- and end-of-week promotions  
