@@ -1,95 +1,120 @@
---Selecting the whole table to examine it--
-SELECT * FROM coffeeshop_db.transactions.bright_coffee_shop;
+--Examining the table
+SELECT * FROM coffee_db.public.shop_tb;
 
---All number of rows--
-SELECT COUNT(*) 
-FROM coffeeshop_db.transactions.bright_coffee_shop;
+--number of records we have in the table (149116)
+SELECT COUNT(*)
+FROM coffee_db.public.shop_tb;
 
---Unique transactions made--
-SELECT COUNT(DISTINCT transaction_id) AS sales_count
-FROM coffeeshop_db.transactions.bright_coffee_shop;
+--Checking missing values coffee shop (No missing values)
+SELECT *
+FROM coffee_db.public.shop_tb
+WHERE transaction_id IS NULL OR transaction_date IS NULL OR transaction_time IS NULL OR transaction_qty IS NULL OR store_location IS NULL OR unit_price IS NULL OR product_category IS NULL OR product_type IS NULL;
 
---Calculating the total items sold--
-SELECT SUM(transaction_qty) AS number_of_items_sold
-FROM coffeeshop_db.transactions.bright_coffee_shop;
+--Checking duplicates values for user profiles (No duplicates)
+SELECT *, Count(*)
+FROM Coffee_db.public.shop_tb
+GROUP BY ALL
+HAVING Count(*)>1;
 
+--Checking the inside store location column
+SELECT DISTINCT store_location
+FROM coffee_db.public.shop_tb;
 
---Calculating the total revenue made--
-SELECT SUM(transaction_qty*unit_price) AS total_revenue
-FROM coffeeshop_db.transactions.bright_coffee_shop;
+--Checking the inside product category column
+SELECT DISTINCT product_category
+FROM coffee_db.public.shop_tb;
 
---Maximum revenue made--
-SELECT MAX(transaction_qty*unit_price) AS total_revenue
-FROM coffeeshop_db.transactions.bright_coffee_shop;
+--Checking the inside product type column
+SELECT DISTINCT product_type
+FROM coffee_db.public.shop_tb;
 
---Earliest time in which the shop opens--
-SELECT MIN(transaction_time) AS min_time
-FROM coffeeshop_db.transactions.bright_coffee_shop;
+--Count unique transactions (149 116)
+SELECT COUNT (DISTINCT transaction_id) AS sales_count
+FROM coffee_db.public.shop_tb;
 
---Latest time in which the shop closes--
-SELECT MAX(transaction_time) AS max_time
-FROM coffeeshop_db.transactions.bright_coffee_shop;
+--Min Date 
+SELECT MIN(transaction_date) (2023-01-01)
+FROM coffee_db.public.shop_tb;
+
+--Max Date 
+SELECT MAX(transaction_date) (2023-06-30)
+FROM coffee_db.public.shop_tb;
 
 --Date information--
+SELECT 
 TO_DATE(transaction_date) AS purchase_date,
 TO_CHAR(TO_DATE(transaction_date), 'YYYY-MM') AS month_id,
 DAYNAME(TO_DATE(transaction_date)) AS day_name,
 MONTHNAME(TO_DATE(transaction_date)) AS month_name
+FROM coffee_db.public.shop_tb;
 
---Time Bucket--
+--Min Time
+SELECT MIN(transaction_time)
+FROM coffee_db.public.shop_tb;
+
+--Max Time
+SELECT MAX(transaction_time)
+FROM coffee_db.public.shop_tb;
+
+--Create case statement for time
 SELECT 
-    CASE
-        WHEN transaction_time BETWEEN '06:00:00' AND '11:59:59' THEN 'Morning'
-        WHEN transaction_time BETWEEN '12:00:00' AND '15:59:59' THEN 'Afternoon'
-        WHEN transaction_time BETWEEN '16:00:00' AND '20:00:00' THEN 'Evening'
-        ELSE 'Night'
-    END AS time_bucket
-FROM coffeeshop_db.transactions.bright_coffee_shop;
---Product Bucket--
+CASE
+    WHEN transaction_time BETWEEN '06:00:00' AND '11:59:59' THEN 'Morning (06:00–11:59)'
+    WHEN transaction_time BETWEEN '12:00:00' AND '15:59:59' THEN H'Afternoon (12:00-15:59'
+    WHEN transaction_time BETWEEN '16:00:00' AND '20:00:00' THEN 'Evening (16:00-20:00)'
+    ELSE 'Night (20:01-23:59)'
+END AS time_bucket
+FROM coffee_db.public.shop_tb;
+
+--Calculating the total items sold
+SELECT SUM(transaction_qty) AS items_count
+FROM coffee_db.public.shop_tb;
+
+--Calculating the total revenue made
+SELECT transaction_id,SUM(transaction_qty*unit_price) AS total_revenue
+FROM coffee_db.public.shop_tb
+GROUP BY ALL
+HAVING SUM(transaction_qty*unit_price)>1
+ORDER BY SUM(transaction_qty*unit_price) ;
+
+--Min total revenue
+SELECT MIN(transaction_qty*unit_price) AS total_revenue
+FROM coffee_db.public.shop_tb
+;
+
+--MAX total revenue
+SELECT Sum(transaction_qty*unit_price) AS total_revenue
+FROM coffee_db.public.shop_tb
+;
+
+--Counting theunique , the total revenue and the total items bought
 SELECT
-CASE 
-    WHEN LOWER(product_type) LIKE '%organic%' THEN 'Organic'
-    WHEN LOWER(product_type) LIKE '%premium%' THEN 'Premium'
-    ELSE 'Standard'
-    END AS product_bucket
-FROM coffeeshop_db.transactions.bright_coffee_shop;
-    
-SELECT 
-    COUNT(DISTINCT transaction_id) AS number_of_sales,
-    SUM(IFNULL(transaction_qty,0)) AS number_of_items_sold,
-    SUM(IFNULL(transaction_qty*unit_price,0)) AS total_revenue,
+    SUM(transaction_qty*unit_price) AS total_revenue,
+    COUNT (DISTINCT transaction_id) AS sales_count,
+    SUM(transaction_qty) AS items_count
+FROM coffee_db.public.shop_tb;
+
+SELECT
+    SUM(transaction_qty*unit_price) AS total_revenue,
+    COUNT (DISTINCT transaction_id) AS sales_count,
+    SUM(transaction_qty) AS items_count,
 
     TO_DATE(transaction_date) AS purchase_date,
     TO_CHAR(TO_DATE(transaction_date), 'YYYY-MM') AS month_id,
     DAYNAME(TO_DATE(transaction_date)) AS day_name,
     MONTHNAME(TO_DATE(transaction_date)) AS month_name,
+
     CASE
-        WHEN transaction_time BETWEEN '06:00:00' AND '11:59:59' THEN 'Morning'
-        WHEN transaction_time BETWEEN '12:00:00' AND '15:59:59' THEN 'Afternoon'
-        WHEN transaction_time BETWEEN '16:00:00' AND '20:00:00' THEN 'Evening'
-        ELSE 'Night'
+        WHEN transaction_time BETWEEN '06:00:00' AND '11:59:59' THEN 'Morning (06:00–11:59)'
+        WHEN transaction_time BETWEEN '12:00:00' AND '15:59:59' THEN 'Afternoon (12:00-15:59)'
+        WHEN transaction_time BETWEEN '16:00:00' AND '20:00:00' THEN 'Evening (16:00-20:00)'
+        ELSE 'Night (20:01-23:59)'
     END AS time_bucket,
-    CASE 
-        WHEN SUM(transaction_qty*unit_price) <=1 THEN 'Low'
-        WHEN SUM(transaction_qty*unit_price) BETWEEN 2 AND 10 THEN 'Medium'
-        ELSE 'High'
-    END AS spender_bucket,
-    CASE 
-    WHEN LOWER(product_type) LIKE '%organic%' THEN 'Organic'
-    WHEN LOWER(product_type) LIKE '%premium%' THEN 'Premium'
-    ELSE 'Standard'
-    END AS product_bucket,
-    store_location,
-    product_category
- 
-FROM coffeeshop_db.transactions.bright_coffee_shop
-GROUP BY 
     store_location,
     product_category,
-    product_bucket,
-    time_bucket,
-    purchase_date,
-    month_id,
-    day_name,
-    month_name
-HAVING SUM(transaction_qty*unit_price)>0;
+    product_type
+    
+    FROM coffee_db.public.shop_tb
+    GROUP BY ALL
+    HAVING SUM(transaction_qty*unit_price)>0;
+
