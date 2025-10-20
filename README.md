@@ -22,27 +22,29 @@ To clean and analyze transactional data, uncover revenue trends, and deliver act
 - **Final Ountput File**: <a href="https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/create-branch-5/Results%20File%20(%20Presentantion(canva))/Coffee%20Shop%20Sales%20Presentation.pptx">Presentation(PowerPoint)</a>
 - **Dashboard**: [Static Dashboard (PDF)](https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/main/DashBoards%20(Looker%2C%20Databricks)/BrightLight_Coffee_Shop_Dashboard.pdf)) & [Live Dashboard](https://lookerstudio.google.com/reporting/8bf9caab-7486-42a8-b5a9-a0c3979cda50) 
 
-## 📊 Key Findings
+## 📊 Key Insights
 
-  1. ### 📅Sales Trends
-   - Revenue increased approximately **3% month-to-month**  
-   - First five days of May vs. June showed an **8% growth**, revealing strong early-month engagement  
+  1. ### 📍 Location-Based 
+   - All three store locations—Hell’s Kitchen, Lower Manhattan, and Astoria—contribute nearly 30% each to total revenue.
 
-  2. ### 📍Location Trends
-   - **Morning time buckets** consistently generate **55%** of total revenue across all three store locations  
+  2. ### Time-Based
+   - Morning hours (06:00–11:59) drive 38.1% of revenue. Monday and Friday peak at 14.4%, while Saturday dips to 13.8%.
+   - Day-to-day growth swings from 4% (Sat–Sun) to –4.1% (Fri–Sat), with month-to-month growth peaking at 15.8% (Feb–Mar). 
 
   3. ### ☕Product Performance
-   - Coffee, Tea, and Bakery products contribute **79%** of total revenue  
-   - Since items and revenue are directly proportional, the Standard Product Bucket contributes **85%** of total revenue,    with **45%** of that demanded during morning hours  
+   -Coffee and Tea contribute 56.6% of total revenue. Barista Espresso and Brewed Chai Tea each generate 16.9%, leading product-type performance. 
 
 ## ✅ Recommendations
-- Run start- and end-of-week promotions  
+- Run start- and end-of-week promotions to boost Monday and Friday peaks  
 - Add staff during peak morning hours  
-- Use mobile carts to reach low-performing locations  
-- Prioritize best-sellers; promote underperformers  
+- Use mobile carts to reach underperforming zones and increase visibility  
+- Prioritize best-sellers; promote underperformers
+- Offer discounts on items nearing expiry to reduce waste  
 - Update digital platforms daily with key deals  
-- Capitalize on the first days of each month  
-- Pair slow-moving items with best-sellers  
+- Capitalize on early-month momentum (Feb–Mar growth +15.8%)  
+- Pair slow-moving items with best-sellers
+- Launch loyalty programs tied to high-performing time buckets
+- Counteract Saturday dips (–4.1%) with weekend bundles and targeted offers
 
 ## 🧭 Future Enhancements
 - Automate daily reporting using SQL scheduling  
