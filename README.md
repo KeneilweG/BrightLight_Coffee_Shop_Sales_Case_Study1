@@ -20,7 +20,7 @@ To clean and analyze transactional data, uncover revenue trends, and deliver act
 - **Project Planning File**: <a href="https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/create-branch-5/Project%20Planning%20(Miro%20%2B%20Research%20Proposal)/Coffee%20ShopMind%20Map.pdf">Miro Mind Map</a>
 - **Working & Analysis Files**: <a href="https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/create-branch-5/Working%20%26%20Analysis%20File%20(SQL(processed%20data))%2B%20Excel/Coffee%20Shop%20Sales.sql">Snowflake SQL Script</a> & <a href="https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/create-branch-5/Working%20%26%20Analysis%20File%20(SQL(processed%20data))%2B%20Excel/Bright%20Coffee%20Shop%20(6).xlsx">Excel Workbook</a> 
 - **Final Ountput File**: <a href="https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/create-branch-5/Results%20File%20(%20Presentantion(canva))/Coffee%20Shop%20Sales%20Presentation.pptx">Presentation(PowerPoint)</a>
-- **Dashboard**: [Static Dashboard (PDF)](DashBoards (Looker, Databricks)/BrightLight_Coffee_Shop_Dashboard.pdf) & [Live Dashboard](https://lookerstudio.google.com/reporting/8bf9caab-7486-42a8-b5a9-a0c3979cda50) 
+- **Dashboard**: [Static Dashboard (PDF)]([DashBoards (Looker, Databricks)/BrightLight_Coffee_Shop_Dashboard.pdf](https://github.com/KeneilweG/BrightLight_Coffee_Shop_Sales_Case_Study1/blob/main/DashBoards%20(Looker%2C%20Databricks)/BrightLight_Coffee_Shop_Dashboard.pdf)) & [Live Dashboard](https://lookerstudio.google.com/reporting/8bf9caab-7486-42a8-b5a9-a0c3979cda50) 
 
 ## 📊 Key Findings
 
