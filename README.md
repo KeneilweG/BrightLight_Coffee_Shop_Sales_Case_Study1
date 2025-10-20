@@ -32,7 +32,7 @@ To clean and analyze transactional data, uncover revenue trends, and deliver act
    - Day-to-day growth swings from 4% (Sat–Sun) to –4.1% (Fri–Sat), with month-to-month growth peaking at 15.8% (Feb–Mar). 
 
   3. ### ☕Product Performance
-   -Coffee and Tea contribute 56.6% of total revenue. Barista Espresso and Brewed Chai Tea each generate 16.9%, leading product-type performance. 
+   - Coffee and Tea contribute 56.6% of total revenue. Barista Espresso and Brewed Chai Tea each generate 16.9%, leading  product-type performance. 
 
 ## ✅ Recommendations
 - Run start- and end-of-week promotions to boost Monday and Friday peaks  
